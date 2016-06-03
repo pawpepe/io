@@ -1,5 +1,7 @@
-h1{ color: DeepSkyBlue;
-	font-family: Palatino, 'Palatino Linotype', serif;}
+h1{ color: #006600;
+	font-family: Palatino, 'Palatino Linotype', serif;
+    text-align: center;
+    }
 
 #header {
     list-style-type: none;
@@ -13,6 +15,10 @@ h1{ color: DeepSkyBlue;
     float: left;
 }
 
+#quote {
+    text-align: center;
+}
+
 li a {
     display: block;
     color: white;
@@ -23,7 +29,13 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: green;
 }
 
+img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
 
