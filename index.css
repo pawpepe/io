@@ -3,6 +3,8 @@ h1{ color: #006600;
     text-align: center;
     }
 
+
+
 #header {
     list-style-type: none;
     margin: 0;
@@ -15,8 +17,26 @@ h1{ color: #006600;
     float: left;
 }
 
-#quote {
-    text-align: center;
+img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    position: relative;
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.container{
+	position: relative;
+}
+
+.center{
+	position:absolute;
+	left:0;
+	top:25%;
+	width: 100%;
+	text-align: center;
+	font-size:30px;
 }
 
 li a {
@@ -32,10 +52,5 @@ li a:hover {
     background-color: green;
 }
 
-img {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-}
+
 
