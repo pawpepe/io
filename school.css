@@ -59,4 +59,24 @@ h2 {
 	color:black;
 	text-align: center;
 }
+.container{
+	position: relative;
+	width: 100%;
+}
+#chico{
+	position: absolute;
+	padding-left: 100px;
+	height: 40%;
+	width: 40%;
+	border:none;
+}
+
+#usp{
+	position: absolute;
+	padding-left: 850px;
+	height: 40%;
+	width: 40%;
+	border:none;
+	
+}
 
