@@ -1,7 +1,14 @@
-div.img{
+h1{
+	text-align: center;
+	color:#000000;
+	font-style: italic;
+	text-align: center;
+	font-size: 60px;
+}
 
+div.img{
+	border: none;
     margin: 1px;
-    border: none;
     width: 300px;
     float:left;
     margin-left: 5%;
@@ -9,7 +16,8 @@ div.img{
 
 }
 
-a{
+img{
 	border:none;
 }
+
 
