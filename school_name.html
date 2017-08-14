@@ -1,25 +1,57 @@
+
 <!DOCTYPE html>
 <html>
-	<head>
+<head>
 
-	</head>
-	<body>
-	
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
 
-			<link rel="stylesheet" type="text/css" href="school.css">
-			<link rel="stylesheet" type="text/css" href="footer.css">
-			<link rel="stylesheet" type="text/css" href="time.css">
-			
-			<nav> <ul id="header">
-		    
-				  <li id="head"><a href="index.html">Home</a></li>
-				  <li id="head"><a href="about.html">About</a></li>
-				  <li id="head"><a href="school_name.html">School</a></li>
-				  <li id="head"><a href="work.html">Work</a></li>
-				  <li id="head"><a href="social.html"> Social</a></li>
-				   <li id ="demo"></li>
-				</ul>
-			</nav>
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+
+<body>
+	<script src="javaScript.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <div class="container">
+
+    <div class="row">
+
+			<ul id="dropdown1" class="dropdown-content  teal lighten-2 ">
+				<li><a class="white-text text-darken-2 center-align " href="index.html">Home</a></li>
+				<li><a class=" white-text text-darken-2 center-align" href="about.html">About</a></li>
+				<li><a class=" white-text text-darken-2 center-align" href="school_name.html">School</a></li>
+				<li><a class=" white-text text-darken-2 center-align" href="work.html">Work</a></li>
+				<li><a class=" white-text text-darken-2 center-align" href="social.html">Social</a>
+			</ul>
+
+			<nav>
+		    <div class="nav-wrapper  teal lighten-2 ">
+
+		      <ul id="nav-mobile" class="right hide-on-med-and-down">
+		        <li><a class=" white-text text-darken-2 center-align " href="index.html">Home</a></li>
+		        <li><a class=" white-text text-darken-2 center-align" href="about.html">About</a></li>
+		        <li><a class=" white-text text-darken-2 center-align" href="school_name.html">School</a></li>
+						<li><a class=" white-text text-darken-2 center-align" href="work.html">Work</a></li>
+						<li><a class=" white-text text-darken-2 center-align" href="social.html">Social</a>
+
+     			</ul>
+
+
+					<ul class="nav-mobile" class="left hide-on-large-only">
+						<!-- Dropdown Trigger -->
+					<li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right hide-on-large-only">dehaze</i></a></li>
+
+
+					</ul>
+		    </div>
+	   </nav>
+
+
 			<section>
 				<h1 id="education"> Education </h1>
 
@@ -29,26 +61,23 @@
 
 				<h2> College </h2>
 				<div class="img">
-					<div class="desc" ><a href="chico.html" id="link">California State University</a></div>	
+					<div class="desc" ><a href="chico.html" id="link">California State University</a></div>
 					<a href="chico.html" ><img src="chico.jpg" id="chico" ></a>
-					
-		        </div>	
+
+		        </div>
 				<div class="img">
 					<div class="desc" ><a href="usp.html" id="link"> University of Sao Paulo</a></div>
 				     <a href="usp.html"><img src="usp.jpg" id="usp" ></a>
-				     
+
 				</div>
-				
+
 			</section>
 
-			 <script src="javaScript.js"></script> 
+			 <script src="javaScript.js"></script>
 
-			
+
 
 
 	</body>
 
 </html>
-
-
-
