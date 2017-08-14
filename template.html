@@ -1,31 +1,3 @@
-
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Marketplace
-    Gist
-
-    @pawpepe
-
-1
-0
-
-    0
-
-pawpepe/pawpepe.github.io
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Settings
-pawpepe.github.io/about.html
-0763f4c 7 minutes ago
-@apmaule apmaule adding materialize to the website
-80 lines (58 sloc) 3.15 KB
-<!DOCTYPE html>
 <html>
 <head>
 
@@ -43,68 +15,41 @@ pawpepe.github.io/about.html
 	<script src="javaScript.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-  <div class="container">
-
-    <div class="row">
-
-			<ul id="dropdown1" class="dropdown-content">
-				  <li><a href="#!">one</a></li>
-				  <li><a href="#!">two</a></li>
-				  <li class="divider"></li>
-				  <li><a href="#!">three</a></li>
-			</ul>
-
-			<nav>
-		    <div class="nav-wrapper  teal lighten-2 ">
-
-		      <ul id="nav-mobile" class="right hide-on-med-and-down">
-		        <li class="active hoverable"><a class="white-text text-darken-2 center-align " href="index.html">Home</a></li>
-		        <li><a class=" white-text text-darken-2 center-align" href="about.html">About</a></li>
-		        <li><a class=" white-text text-darken-2 center-align" href="school_name.html">School</a></li>
-						<li><a class=" white-text text-darken-2 center-align" href="work.html">Work</a></li>
-						<li><a class=" white-text text-darken-2 center-align" href="social.html">Social</a>
-
-     			</ul>
-
-
-					<ul class="nav-mobile" class="left hide-on-large-only">
-						<!-- Dropdown Trigger -->
-					<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-					</ul>
-		    </div>
-	   </nav>
-
-
-
-	      <div class="col  s12">
-						<h1> Who am I? </h1>
-						  <div class="myself">
-							<h5> A leaner, explorer, and caplable of speaking several languages with people and computers :) </h5> </div>
-				</div>
-
-	   <div class="col s12">
-	        <h2> Hobbies </h2>
-	        <div class="hobbie">
-	            <h5> I love being outdoors and traveling. I am always down for a hike, bike ride, camping or all together at once! I also love learning new technologies and doing some projects on my free time. If you are hungry let me know because I have some experience in the kitchen! Since our memory is not perfect I end up recording them by taking a good amount of pictures(All the photos used on my website/ blogs/ social media were taken by me).  </h5>
-
-	              <h5> Horses are my passion, I used to compete in horse jumping championships when I was a teenager. I also have lots of fun learning a new language because it puts you out of your comfort zone and teaches you a lot about another culture. One of my favorites quotes is </h5>
-
-	                <blockquote> <h5>I know that I know nothing - Socrates</h5> </blockquote>
-	              <h5>  such an interesting paradox...</h5>
-	        </div>
-	    </div>
-
-			<div class="col s3 offset-s9">
-
-						 <div class="row valign-wrapper">
-												 <img class="circle responsive-img" src="me.jpg">
-						 </div>
-				</div>
-		</div>
-
-
- </div>
-
-    Contact GitHub API Training Shop Blog About
-
-    © 2017 GitHub, Inc. Terms Privacy Security Status Help
+  <script>
+   $(document).ready(function () {
+       $('.slider').slider({full_width: true});
+   });
+</script>
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+</html>
