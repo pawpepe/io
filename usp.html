@@ -1,31 +1,126 @@
+
 <!DOCTYPE html>
 <html>
-	<head>
+<head>
 
-	</head>
-	<body>
-	
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
 
-			<link rel="stylesheet" type="text/css" href="school.css">
-			<link rel="stylesheet" type="text/css" href="index.css">
-			<link rel="stylesheet" type="text/css" href="footer.css">
-			<link rel="stylesheet" type="text/css" href="time.css">
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-			<nav> <ul id="header">
-		    
-				  <li id="head"><a href="index.html">Home</a></li>
-				  <li id="head"><a href="about.html">About</a></li>
-				  <li id="head"><a href="school_name.html">School</a></li>
-				  <li id="head"><a href="work.html">Work</a></li>
-				  <li id="head"><a href="social.html"> Social</a></li>
-				   <li id ="demo"></li>
-				</ul>
-			</nav>
-			<h1> Education </h1>
-				<h3 id="college"> University of Sao Paulo</h3>
-				<h3 id="college"> GPA 3.0 </h3>
+</head>
+
+<body>
+	<script src="javaScript.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <div class="container">
+
+    <div class="row">
+
+			<ul id="dropdown1" class="dropdown-content  teal lighten-2 ">
+				<li><a class="white-text text-darken-2 center-align " href="index.html">Home</a></li>
+				<li><a class=" white-text text-darken-2 center-align" href="about.html">About</a></li>
+				<li><a class=" white-text text-darken-2 center-align" href="school_name.html">School</a></li>
+				<li><a class=" white-text text-darken-2 center-align" href="work.html">Work</a></li>
+				<li><a class=" white-text text-darken-2 center-align" href="social.html">Social</a>
+			</ul>
+
+			<nav>
+		    <div class="nav-wrapper  teal lighten-2 ">
+
+		      <ul id="nav-mobile" class="right hide-on-med-and-down">
+		        <li><a class=" white-text text-darken-2 center-align " href="index.html">Home</a></li>
+		        <li><a class=" white-text text-darken-2 center-align" href="about.html">About</a></li>
+		        <li><a class=" white-text text-darken-2 center-align" href="school_name.html">School</a></li>
+						<li><a class=" white-text text-darken-2 center-align" href="work.html">Work</a></li>
+						<li><a class=" white-text text-darken-2 center-align" href="social.html">Social</a>
+
+     			</ul>
+
+
+					<ul class="nav-mobile" class="left hide-on-large-only">
+						<!-- Dropdown Trigger -->
+					<li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right hide-on-large-only">dehaze</i></a></li>
+
+
+					</ul>
+		    </div>
+	   </nav>
+
+
+			<h3> Education </h3>
+				<h5 id="college"> University of Sao Paulo</h5>
 				<table border="1" style="width:70%" align = "center">
+					<tr>
+						<th class = "term">Spring 2017</th>
+						<th class = "term"></th>
+						<th class = "term"></th>
+					</tr>
+					<tr>
+							<th>Course</th>
+							<th>Credits</th>
 
+					</tr>
+					<tr>
+						<td> Numerical Calculus and Analysis </td>
+						<td> 4</td>
+					</tr>
+					<tr>
+						<td> Computer Networks </td>
+						<td> 4</td>
+					</tr>
+					<tr>
+						<td> Computer Organization</td>
+						<td> 4</td>
+					</tr>
+					<tr>
+						<td> Stochastic Processes</td>
+						<td> 4</td>
+					</tr>
+					<tr>
+						<td>Information Systems </td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>Information </td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>Supervised Exchange Program</td>
+						<td>8</td>
+					</tr>
+
+
+					<tr>
+						<th class = "term">Fall 2016</th>
+						<th class = "term"></th>
+						<th class = "term"></th>
+					</tr>
+					<tr>
+							<th>Course</th>
+							<th>Credits</th>
+					</tr>
+
+					<tr>
+						<td>Theory of Computation and Formal Languages</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>Introduction to Bioinformatics</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>Calculus IV</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>Linear Algebra and Ordinary Differential Equations</td>
+						<td>4</td>
+					</tr>
 
 					<tr>
 						<th class = "term">Fall 2015</th>
@@ -35,30 +130,29 @@
 					<tr>
 					    <th>Course</th>
 					    <th>Credits</th>
-					    <th>GPA</th>
+
 				  </tr>
 
 					<tr>
 						<td> General Physics Laboratory </td>
 						<td> 2</td>
-						<td>B </td>
-					</tr> 
+
+					</tr>
 					<tr>
 						<td> Introduction to Web Development </td>
 						<td> 4</td>
-						<td>B </td>
-					</tr> 
-					<tr> 
+
+					</tr>
+					<tr>
 						<td> Computer Graphics </td>
 						<td> 4 </td>
-						<td>C </td>
+
 					</tr>
-					<tr> 
+					<tr>
 						<td> Software Engineering  </td>
 						<td> 4 </td>
-						<td>C </td>
 					</tr>
-	
+
 					<tr>
 						<th class = "term">Fall 2014</th>
 						<th class = "term"> </th>
@@ -67,47 +161,41 @@
 					<tr>
 					    <th>Course</th>
 					    <th>Credits</th>
-					    <th>GPA</th>
+
 				  </tr>
 
 					<tr>
 						<td> Scientific Methodology for Computer Science </td>
 						<td> 2</td>
-						<td>B </td>
-					</tr> 
+
+					</tr>
 					<tr>
 						<td> Advanced Algorithms and Applications</td>
 						<td> 2 </td>
-						<td>C </td>
 					</tr>
 					<tr>
 						<tr>
 						<td> Artificial Intelligence </td>
 						<td> 4 </td>
-						<td>B </td> 
 					</tr>
-					
+
 					<tr>
 						<td> Discrete Mathematics</td>
 						<td> 4 </td>
-						<td>C </td> 
 					</tr>
 
-					<tr> 
+					<tr>
 						<td> Statistics </td>
 						<td> 4 </td>
-						<td>C </td>
 					</tr>
 
 					<tr>
 						<td>Object-Oriented Analysis and Design</td>
 						<td>4</td>
-						<td>B </td>
 					</tr>
-					<tr> 
+					<tr>
 						<td> Evolutionary Systems Applyied to Robotics</td>
 						<td> 3 </td>
-						<td>A </td>
 					</tr>
 
 
@@ -119,41 +207,34 @@
 					<tr>
 					    <th>Course</th>
 					    <th>Credits</th>
-					    <th>GPA</th>
 				  </tr>
 
 					<tr>
 						<td> General Physics I </td>
 						<td> 4 </td>
-						<td>C </td>
-					</tr> 
+					</tr>
 					<tr>
 						<td> Object Oriented Programming </td>
 						<td> 4 </td>
-						<td>C </td>
 					</tr>
 					<tr>
 						<td> File Organization </td>
 						<td> 3 </td>
-						<td>B </td>
 					</tr>
 
 					<tr>
 						<td> Computational Modelling in Graphs </td>
 						<td> 3 </td>
-						<td>C </td>
 					</tr>
 
 					<tr>
 						<td> Image Processing </td>
 						<td> 3 </td>
-						<td>A </td>
 					</tr>
 
 					<tr>
 						<td>Practice in Computer Organization </td>
 						<td> 2 </td>
-						<td>B </td>
 					</tr>
 					<tr>
 						<th class = "term">Fall 2013</th>
@@ -163,31 +244,30 @@
 				  	<tr>
 					    <th>Course</th>
 					    <th>Credits</th>
-					    <th>GPA</th>
 				  </tr>
 
-					<tr> 
+					<tr>
 					  <td>Introduction to Computer Science II </td>
 				 	  <td>4</td>
-				 	  <td>C </td>
+
 				 	  </tr>
 
-					<tr> 
+					<tr>
 						<td> Algorithms and Data Structures I </td>
 						<td> 4 </td>
-						<td>C </td> 
+
 					</tr>
 
-					<tr>  
+					<tr>
 						<td> Calculus II </td>
-						<td> 6 </td> 
-						<td>C </td> 
+						<td> 6 </td>
+
 					</tr>
 
-					<tr> 
+					<tr>
 						<td>Digital Systems</td>
 						<td> 4</td>
-						<td>A </td>
+
 					</tr>
 					 <tr>
 						<th class = "term">Spring 2012</th>
@@ -198,53 +278,44 @@
 				 <tr>
 				    <th>Course</th>
 				    <th>Credits</th>
-				    <th>GPA</th>
 				  </tr>
 
 				  <tr>
 						<td>Professional Information on Computer Science</td>
 						<td>1</td>
-						<td>A </td>
 				    </tr>
 
 					<tr>
 						<td>Analytic Geometry</td>
 						<td>4</td>
-						<td>B </td>
 					</tr>
 					<tr>
 						<td>Calculus I </td>
 						<td>6</td>
-						<td>C </td>
 					</tr>
 					<tr>
 						<td>Introduction to Computer Science I</td>
 						<td>4</td>
-						<td>C </td>
 					</tr>
 
 					<tr>
 						<td>Introduction to Computer Science: Laboratory I</td>
 						<td>2</td>
-						<td>B </td>
 					</tr>
 
 					<tr>
 						<td>Introduction to Digital Logic</td>
 						<td>4</td>
-						<td>B </td>
 					</tr>
 
 					<tr>
 						<td>Electronics for Computer Sciences</td>
 						<td>2</td>
-						<td>A </td>
 					</tr>
-					
+
 				</table>
 
-	  <script src="javaScript.js"></script> 
+	  <script src="javaScript.js"></script>
 
 	</body>
 </html>
-
