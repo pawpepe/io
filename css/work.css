@@ -1,0 +1,59 @@
+
+
+h1 {
+	text-align: center;
+	color:#000000;
+	font-style: italic;
+	text-align: center;
+	font-size: 60px;
+}
+
+
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 2.1;
+}
+
+h3{
+	color:#408000;
+	line-height: 1.0;
+	text-align: center;
+}
+
+h4{
+	text-align:center;
+	background-size: 70%;
+	line-height: 0.4;
+}
+
+#date {
+	color:#c2d6d6;
+	font-style: italic;
+	line-height: 0.2;
+
+}
+
+ul li {
+	text-align: center;
+}
+
+#section{
+	background-color:#98e698 ;
+	color: white;
+	text-align: center;
+	padding:5px;
+}
+
+h5{
+	color:white;
+	font-style: italic;
+}
+
+footer{
+	background-color:#333;
+	color:white;
+	text-align: center;
+	padding:1px;
+}

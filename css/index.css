@@ -1,0 +1,60 @@
+h1{ color: #000000;
+	font-family: Palatino, 'Palatino Linotype', serif;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 60px;
+    }
+
+
+
+#header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#head {
+    float: left;
+}
+
+
+
+img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    position: relative;
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.container{
+	position: relative;
+}
+
+.center{
+	position:absolute;
+	left:0;
+	top:25%;
+	width: 100%;
+	text-align: center;
+	font-size:30px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: green;
+}
+
+
+

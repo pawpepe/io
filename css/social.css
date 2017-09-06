@@ -1,0 +1,23 @@
+h1{
+	text-align: center;
+	color:#000000;
+	font-style: italic;
+	text-align: center;
+	font-size: 60px;
+}
+
+div.img{
+	border: none;
+    margin: 1px;
+    width: 300px;
+    float:left;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+img{
+	border:none;
+}
+
+
